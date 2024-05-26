@@ -1,0 +1,105 @@
+.navbar{
+    background-color: white;
+}
+.container{
+    max-width: 95% !important;
+    position: relative;
+    top: 5rem;
+    padding-bottom: 1rem;
+}
+.homeimg{
+    width:80%;
+    height: 300px;
+    margin-right: 2rem;
+}
+.imgtext{
+    display: flex;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+    font-size: 3.5rem;
+}
+.detls{
+    width: 20rem;
+    margin-right: 1rem;
+    height: fit-content;
+    border-radius: 0 100% 100% 0;
+    padding: 1%;
+    background-color: #0093AF;
+    color: white;
+}
+.introdiv img{
+    width: 30%;
+    height: 260px;
+    border: 5px solid black;
+}
+.Btn{
+    background-color: #0093AF !important;
+    color: white !important;
+}
+.about img{
+    width: 30%;
+    height: 400px;
+    border: 3px solid black
+}
+.serviceImgs{
+    width: 15%;
+    height: 250px;
+    margin: 5px;
+}
+.serviceImgs img{
+    height: 200px;
+    width: 100%;
+    border-radius: 30%;
+    border: 2px solid black;
+    opacity: 0.8;
+}
+.serviceImgs div{
+    position: relative;
+    color: white;
+    align-items: center;
+    top: -4rem;
+    left: 2rem;
+}
+.list li{
+    list-style-type:disc;
+}
+.appointmentForm{
+    display: flex;
+    background-color: #0093AF;
+    color: white;
+    align-items: center;
+
+    border-radius: 20%;
+    justify-content: space-between;
+    padding: 2%;
+}
+.form-outline i{
+    position: relative;
+    left: -2rem;
+}
+.form-outline input, .form-outline textarea{
+    border: 2px dashed black;
+    height: 50px;
+    margin: 8px;
+    border-radius: 10%;
+}
+.subheader{
+    color: #0093AF;
+}
+.img{
+    width: 40%;
+    height: 250px;
+    margin: 9px;
+}
+.healthtipsDiv button{
+    margin: 2%;
+    width: 20%;
+    height: 100px;
+}
+.footer{
+    display:flex;
+    height:fit-content;
+}
+.footer div{
+    padding: 1rem;
+    width: 34%;
+}
